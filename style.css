@@ -3,8 +3,8 @@ h1 {
 }
 
 td {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 60px;
 }
 table {
     margin: 5px auto;
@@ -13,13 +13,24 @@ table {
 .vert {
     border-left: 2px solid black;
     border-right: 2px solid black;
+    height: 60px;
 }
 
 .hori {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    width: 250px;
 }
 
 .red {
     border-color: red;
+}
+.vertred{
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+    
+}
+.horired{
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
 }
