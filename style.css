@@ -35,7 +35,63 @@ table {
     border-bottom: 4px solid red;
 }
 
-.tictactoe{
+.topLeft{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
+
+.topMid{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
+
+.topRight{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
+
+.midLeft{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
+
+.midMid{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
+
+.midRight{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
+
+.bottomLeft{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
+
+.bottomMid{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
+
+.bottomRight{
     width: 75px;
     height: 55px;
     background: transparent;
