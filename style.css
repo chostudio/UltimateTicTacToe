@@ -34,3 +34,10 @@ table {
     border-top: 4px solid red;
     border-bottom: 4px solid red;
 }
+
+.tictactoe{
+    width: 75px;
+    height: 55px;
+    background: transparent;
+    border-color: rgb(255, 255, 255, 0.3);
+}
