@@ -6,15 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Uncomment this out if you do not have nodejs and move the style.css to this folder
+        <link rel="stylesheet" href="style.css"> 
+    -->
 </head>
 
 <body>
+    <script src="bundle.js" defer></script>
     <h1>Tic Tac Toe</h1>
     <table>
         <tr> 
             <td>
-                <table>
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>
@@ -33,8 +36,8 @@
                 </table>
                 
             </td>
-            <td class="vertred">
-                <table>
+            <td class="vert-big">
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>
@@ -54,7 +57,7 @@
                 
             </td>
             <td>
-                <table>
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>
@@ -75,8 +78,8 @@
             </td>
         </tr>
         <tr> 
-            <td class="horired">
-                <table>
+            <td class="hori-big">
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>
@@ -95,8 +98,8 @@
                 </table>
                 
             </td>
-            <td class="horired vertred">
-                <table>
+            <td class="hori-big vert-big">
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>
@@ -115,8 +118,8 @@
                 </table>
                 
             </td>
-            <td class="horired">
-                <table>
+            <td class="hori-big">
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>
@@ -138,7 +141,7 @@
         </tr>
         <tr> 
             <td>
-                <table>
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>
@@ -157,8 +160,8 @@
                 </table>
                 
             </td>
-            <td class="vertred">
-                <table>
+            <td class="vert-big">
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>
@@ -178,7 +181,7 @@
                 
             </td>
             <td>
-                <table>
+                <table class="innerBoard">
                     <tr>
                         <td></td>
                         <td class="vert"></td>

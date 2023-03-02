@@ -10,6 +10,7 @@ table {
     margin: 5px auto;
 }
 
+
 .vert {
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -25,12 +26,12 @@ table {
 .red {
     border-color: red;
 }
-.vertred{
+.vert-big {
     border-left: 4px solid red;
     border-right: 4px solid red;
     
 }
-.horired{
+.hori-big {
     border-top: 4px solid red;
     border-bottom: 4px solid red;
 }

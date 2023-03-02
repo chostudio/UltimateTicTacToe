@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+dist/bundle.js
+build/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other
+.DS_Store
