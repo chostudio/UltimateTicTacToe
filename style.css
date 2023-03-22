@@ -1,47 +1,43 @@
-body {
+h1 {
     text-align: center;
 }
 
-/* td {
-    width: 10vw;
-    height: 10vh;
-} */
+td {
+    width: 250px;
+    height: 60px;
+}
 table {
     margin: 5px auto;
 }
-
-.cell {
-    height: 100px;
-    width: 100px;
+button{
+    width: 80px;
+    height: 58px;
+    background: transparent;
+    /* border: transparent; */
     
-    font-size: 200%;
-
-    background:none;
-    border:none;
-    margin:0;
-    padding:0;
-    cursor: pointer;
+}
+button:hover{
+    cursor:pointer;
 }
 
 .vert {
     border-left: 2px solid black;
     border-right: 2px solid black;
+    height: 60px;
+    margin: 0%;
 }
 
 .hori {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    width: 250px;
 }
-
-.red {
-    border-color: red;
-}
-.vert-big {
+.vertred{
     border-left: 4px solid red;
     border-right: 4px solid red;
     
 }
-.hori-big {
+.horired{
     border-top: 4px solid red;
     border-bottom: 4px solid red;
 }
