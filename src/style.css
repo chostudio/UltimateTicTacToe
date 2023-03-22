@@ -9,28 +9,22 @@ td {
 table {
     margin: 5px auto;
 }
-button{
-    width: 80px;
-    height: 58px;
-    background: transparent;
-    /* border: transparent; */
-    
-}
-button:hover{
-    cursor:pointer;
-}
+
 
 .vert {
     border-left: 2px solid black;
     border-right: 2px solid black;
     height: 60px;
-    margin: 0%;
 }
 
 .hori {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     width: 250px;
+}
+
+.red {
+    border-color: red;
 }
 .vert-big {
     border-left: 4px solid red;
