@@ -1,26 +1,36 @@
-h1 {
+body {
     text-align: center;
 }
 
-td {
-    width: 250px;
-    height: 60px;
-}
+/* td {
+    width: 10vw;
+    height: 10vh;
+} */
 table {
     margin: 5px auto;
 }
 
+.cell {
+    height: 100px;
+    width: 100px;
+    
+    font-size: 200%;
+
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
 
 .vert {
     border-left: 2px solid black;
     border-right: 2px solid black;
-    height: 60px;
 }
 
 .hori {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    width: 250px;
 }
 
 .red {
