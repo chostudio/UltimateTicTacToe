@@ -15,6 +15,7 @@ table {
     height: 100%;
     font-size: 200%;
 
+    user-select: none;
     background:none;
     border:none;
     margin:0;
@@ -44,8 +45,7 @@ table {
     border-top: 4px solid red;
     border-bottom: 4px solid red;
 }
-table.innerBoard td {
+table.grid td {
     height: 100px;
     width: 100px;
- 
-}
+} 
