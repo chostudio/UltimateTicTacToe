@@ -19,15 +19,19 @@ let darr = [0, 0, 0]
 
 
 function allSame(toFind, array){
-    for(it of array){
-        if(it == toFind){
-            console.log("Ohian")
+    for(let i = 0; i < array.length; i++){
+        if(array[i] != toFind){
+            return false;
         }
+
     }
+    return true;
 }
 
 let arr1 = [1, 1, 1]
 let arr2 = [1, 2, 1]
+let arr3 = ["baller", "not baller", "baller", "baller"]
 
 console.log(allSame(1, arr1))
 console.log(allSame(1, arr2))
+console.log(allSame("baller", arr3)) // faslse
